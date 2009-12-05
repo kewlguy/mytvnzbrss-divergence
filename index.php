@@ -1,10 +1,8 @@
 <?php
-
-// Gzip enable
-ob_start("ob_gzhandler");
-
-// Connect to database
 include "settings.php";
+include "functions.php";
+
+ob_start("ob_gzhandler"); // Gzip enable
 
 // Add a little safety 9 feb 2009
 $ps_id = strip_tags($_GET["id"]);
@@ -59,7 +57,7 @@ if (!empty($ps_id)) {
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-  <title>MyTvNZB rss 3.0</title>
+  <title>MyTvNZB rss Divergence 3.0</title>
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
   <link media="screen" href="nzbv2.css" rel="stylesheet" type="text/css" />
   <script type="text/javascript" src="v2.js"></script>
@@ -129,12 +127,7 @@ No registration required.
 </p>
 <?php
 
-$sql = "SELECT * FROM shows WHERE active='1'";
-$query = mysql_query($sql) or die (mysql_error());
-
-while( $result_row = mysql_fetch_array($query)) {
-  $show_array[$result_row[id]] = $result_row[title];
-}
+$show_array = create_show_array('id','title',1);
 
 // Get Numbers
 echo "<div class=\"letter\"><h2>#</h2></div>\n";

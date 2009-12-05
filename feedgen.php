@@ -1,16 +1,10 @@
 <? 
-header('Content-type: application/rss+xml; charset=UTF-8');
-
-//Enable Gzip
-ob_start("ob_gzhandler");
 include "settings.php";
+include "functions.php";
+header('Content-type: application/rss+xml; charset=UTF-8');
+ob_start("ob_gzhandler"); //Enable Gzip
 
-$sql = "SELECT * FROM shows WHERE active='1'";
-$query = mysql_query($sql) or die (mysql_error());
-
-while( $result_row = mysql_fetch_array($query)) {
-  $show_array[$result_row[id]] = $result_row[title];
-}
+$show_array = create_show_array('id','title',1);
 
 /*
 	Make array of values
