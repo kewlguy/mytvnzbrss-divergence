@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS `shows` (
+  `id` int(5) NOT NULL,
+  `title` varchar(255) NOT NULL,
+  `active` int(2) NOT NULL,
+  UNIQUE KEY `id` (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+CREATE TABLE IF NOT EXISTS `mytvnzb` (
+  `id` int(11) NOT NULL auto_increment,
+  `ps_id` varchar(12) NOT NULL,
+  `str` text NOT NULL,
+  UNIQUE KEY `id` (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=17824 ;

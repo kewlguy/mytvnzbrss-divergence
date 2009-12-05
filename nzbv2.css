@@ -1,0 +1,108 @@
+body {
+	font:62.5% "Lucida Grande", Arial, Helvetica, Verdana, sans-serif;
+	color:#ddd;
+	background:#333;
+}
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	width:960px;
+	background:#555;
+	border:5px solid #444;
+}
+#header {
+	height:150px;
+	width:960px;
+	margin: 0;
+	background:url(bg_header.jpg) top center #2956b2;
+	border-top: 1px solid #444;
+	border-bottom: 5px solid #444;
+}
+#header a {
+	display: block;
+	color: white;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+}
+#header h1 {
+	padding-top: 30px;
+	padding-left: 15px;
+	font-size: 250%;
+}
+#header h2 {
+	padding-left: 50px;
+	margin-top: -2.5%;
+	font-size: 150%;
+}
+#infobox {
+	font-size: 120%;
+	border: 1px solid #fc0;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 10px 10px 10px 10px;
+	text-align: justify;
+}
+.response {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: 1px solid #56b229;
+	padding: 10px 10px 10px 10px;
+	font-size: 120%;
+}
+.response h2 {
+	background:url(feed.gif) left no-repeat;
+	padding-left: 20px;
+}
+#content {
+	width: 920px;
+	margin: auto;
+}
+#content hr {
+	clear: both;
+	color: #333;
+	float: left;
+	height: 1px;
+	width: 70%;
+}
+#content h3 {
+	clear: left;
+}
+#content .letter {
+	margin-top: 20px;
+	background: #333;
+	color: #2956b2;
+	clear: both;
+	padding-left: 15px;
+}
+#content .box {
+	color: #ddd;
+	width: 25%;
+	float: left; 
+	margin: 2px 0 0 0; 
+}
+#content .box:hover {
+	color: #fc0;
+	font-weight: normal;
+}
+#content .selected {
+	color: #fc0;
+}
+#content .selected:hover {
+	color: #fc0;
+}
+#footer {
+	line-height:1.2em;
+	width:960px;
+	border-top: 5px solid #444;
+}
+.marginleft {
+	margin-left: 15px;
+}
+a {
+	color: #222;
+	text-decoration: none;
+}
+
