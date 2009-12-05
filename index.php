@@ -4,7 +4,7 @@
 ob_start("ob_gzhandler");
 
 // Connect to database
-include "connect.php";
+include "settings.php";
 
 // Add a little safety 9 feb 2009
 $ps_id = strip_tags($_GET["id"]);
