@@ -57,6 +57,8 @@ if (!empty($ps_id)) {
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
+  <link rel="icon" href="favicon.ico" type="image/x-icon"> 
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"
   <title>MyTvNZB rss Divergence 3.0</title>
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
   <link media="screen" href="nzbv2.css" rel="stylesheet" type="text/css" />
@@ -96,12 +98,20 @@ To modify your selection of shows later bookmark this page:<br />
 
 <div id="content">
 <div id="infobox">
-<img src="info_icon.png" alt="Info: " style="float: left;"/>
+<img src="info_icon.png" alt="Info: " style="float: left; padding-right: 10px;"/>
 Select your favorite shows below and click "Generate Feed".
 You will be alerted trough the RSS feed when a new episode is aired.<br />
 The NZB for usenet is automaticly inserted.
 Shows don't start with "The". - e.g. "The Simpsons" --is--> "Simpons, The".<br />
 No registration required.
+
+<h3>My show is not in the list, how to get it added?</h3> 
+1) Look in the <a href="http://www.tvnzb.com/shows">TVNZB.com Show List.</a>
+<br>
+2) If it is not in the list, make a request on the <a href="http://www.tvnzb.com/forum/viewforum.php?f=5">Episode Request</a> part of the forum first.
+<br>
+3) There currently have a cron job to update the list once a week from TVNZB if that is too long I will change the schedule to kick it off more frequently. 
+
 </div>
 <form action="index.php?id=<? echo $_GET["id"]; ?>" method="post">
 <div class="letter"><h2>x264 options:</h2></div>
