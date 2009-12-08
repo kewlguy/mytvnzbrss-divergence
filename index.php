@@ -58,7 +58,7 @@ if (!empty($ps_id)) {
 
 <head>
   <link rel="icon" href="favicon.ico" type="image/x-icon"> 
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <title>MyTvNZB rss Divergence 3.0</title>
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
   <link media="screen" href="nzbv2.css" rel="stylesheet" type="text/css" />
@@ -109,8 +109,6 @@ No registration required.
 1) Look in the <a href="http://www.tvnzb.com/shows">TVNZB.com Show List.</a>
 <br>
 2) If it is not in the list, make a request on the <a href="http://www.tvnzb.com/forum/viewforum.php?f=5">Episode Request</a> part of the forum first.
-<br>
-3) There currently have a cron job to update the list once a week from TVNZB if that is too long I will change the schedule to kick it off more frequently. 
 
 </div>
 <form action="index.php?id=<? echo $_GET["id"]; ?>" method="post">
