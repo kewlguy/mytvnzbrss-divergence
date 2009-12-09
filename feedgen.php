@@ -38,7 +38,7 @@ for ($z = 0; $z < count($id_ar); $z++) {
 // make option readable
  if ($x264 == "only") $x264txt = "Only showing x264";
  elseif ($x264 == "no") $x264txt = "Not showing x264";
- else $x264txt = "Showing x264 and none-x264";
+ else $x264txt = "Showing x264 and non-x264";
 
 /* 
 	Header output;

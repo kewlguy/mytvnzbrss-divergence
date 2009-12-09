@@ -124,7 +124,7 @@ No registration required.
   </div>
 <? if ($x264 == "both") {$slcted = " selected"; $chked = "checked=\"checked\" ";}else {$slcted = "";$chked = "";} ?>
   <div id="lbl_both" class="box<? echo $slcted; ?>">
-    <label><input type="radio" name="x264" value="both" <? echo $chked; ?>onclick="changeShow(this);" /> Show x264 and none-x264</label>
+    <label><input type="radio" name="x264" value="both" <? echo $chked; ?>onclick="changeShow(this);" /> Show x264 and non-x264</label>
   </div>
 <hr />
 <h3>What is x264?</h3>
