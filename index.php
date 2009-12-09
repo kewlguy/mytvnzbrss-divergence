@@ -108,7 +108,7 @@ No registration required.
 <h3>My show is not in the list, how to get it added?</h3> 
 1) Look in the <a href="http://www.tvnzb.com/shows">TVNZB.com Show List.</a>
 <br>
-2) If it is not in the list, make a request on the <a href="http://www.tvnzb.com/forum/viewforum.php?f=5">Episode Request</a> part of the forum first.
+2) If it is not in the list, make a request on the <a href="http://www.tvnzb.com/forum/viewtopic.php?t=52857">Episode Request</a> part of the forum first.
 
 </div>
 <form action="index.php?id=<? echo $_GET["id"]; ?>" method="post">
