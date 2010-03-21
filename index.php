@@ -57,8 +57,8 @@ if (!empty($ps_id)) {
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-  <link rel="icon" href="favicon.ico" type="image/x-icon"> 
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon" /> 
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
   <title>MyTvNZB rss Divergence 3.0</title>
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
   <link media="screen" href="nzbv2.css" rel="stylesheet" type="text/css" />
@@ -107,7 +107,7 @@ No registration required.
 
 <h3>My show is not in the list, how to get it added?</h3> 
 1) Look in the <a href="http://www.tvnzb.com/shows">TVNZB.com Show List.</a>
-<br>
+<br />
 2) If it is not in the list, make a request on the <a href="http://www.tvnzb.com/forum/viewtopic.php?t=52857">Episode Request</a> part of the forum first.
 
 </div>
